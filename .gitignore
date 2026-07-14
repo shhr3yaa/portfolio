@@ -45,3 +45,4 @@ next-env.d.ts
 full*.png
 shot*.png
 c_*.png
+.vercel

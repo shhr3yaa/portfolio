@@ -1,4 +1,4 @@
-import { getViews } from "@/lib/counter";
+import { getViews, resetViews } from "@/lib/counter";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -8,9 +8,11 @@ const PASSWORD = process.env.TRACKER_PASSWORD || "mamas";
 
 export async function POST(req: Request) {
   let password = "";
+  let reset = false;
   try {
-    const body = (await req.json()) as { password?: string };
+    const body = (await req.json()) as { password?: string; reset?: boolean };
     password = body.password ?? "";
+    reset = body.reset === true;
   } catch {
     password = "";
   }
@@ -19,6 +21,6 @@ export async function POST(req: Request) {
     return Response.json({ ok: false, error: "Wrong password" }, { status: 401 });
   }
 
-  const views = await getViews();
+  const views = reset ? await resetViews() : await getViews();
   return Response.json({ ok: true, views });
 }

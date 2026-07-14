@@ -42,3 +42,9 @@ export async function getViews(): Promise<number> {
   if (kvResult !== null) return kvResult;
   return globalStore.__views ?? 0;
 }
+
+export async function resetViews(): Promise<number> {
+  await kv(`set/${KEY}/0`);
+  globalStore.__views = 0;
+  return 0;
+}

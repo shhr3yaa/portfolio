@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins, Quicksand } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -29,7 +30,10 @@ export default function RootLayout({
       lang="en"
       className={`${poppins.variable} ${quicksand.variable} h-full antialiased scroll-smooth`}
     >
-      <body className="min-h-full">{children}</body>
+      <body className="min-h-full">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
