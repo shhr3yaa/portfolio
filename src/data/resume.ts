@@ -349,7 +349,7 @@ export const codMobile = {
   subtitle: "$800M portfolio · East Asia & US",
   launch: "Worked on the Season 3: Paranoia (March 2026) & Season 4: Eternal Prison launches",
   intro:
-    "At Activision I led cross-functional alignment across Strategy Finance, Marketing, Live Ops, Product & Engineering on the $800M Call of Duty: Mobile portfolio — including the Season 3: Paranoia (March 2026) and Season 4: Eternal Prison launches — and supported go-to-market across China, Korea & Garena by analyzing performance data to identify underperforming titles and partner on targeted messaging & promotional campaigns.",
+    "At Activision I led cross-functional alignment across Strategy Finance, Marketing, Live Ops, Product & Engineering on the $800M Call of Duty: Mobile portfolio — including the Season 3: Paranoia (March 2026) and Season 4: Eternal Prison launches. I owned international campaigns end-to-end across China, Korea & Garena: positioning each release with the product marketing team, partnering with engineering to build and ship the in-game product, pulling performance data from the sales team, and packaging those insights into targeted, data-backed launch campaigns.",
   chips: [
     "🎮 Season 3: Paranoia (Mar 2026)",
     "🎮 Season 4: Eternal Prison",
@@ -362,7 +362,7 @@ export const codMobile = {
       name: "China",
       flag: "🇨🇳",
       story:
-        "Analyzed performance data to identify underperforming titles and shape go-to-market strategy.",
+        "Drove international campaigns for major gaming releases — positioning each launch with the product marketing team, partnering with engineering to build and produce the in-game product, and pulling performance data from the sales team. I packaged those insights into a clear narrative so we could launch targeted, data-backed campaigns in-market.",
     },
     {
       name: "Korea",
