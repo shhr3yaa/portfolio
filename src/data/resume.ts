@@ -311,8 +311,8 @@ export const deliverables: Deliverable[] = [
     title: "Copilot Demos & AI Enablement",
     tag: "Enablement · Cross-Functional",
     emoji: "🎤",
-    text: "Presented live, front-facing Copilot demos to Procurement, Finance, and Sales teams — turning \"how do I actually use this?\" into concrete, function-specific workflows and use cases.",
-    metrics: ["Procurement · Finance · Sales", "Live team demos", "Real use-case walkthroughs"],
+    text: "Presented live, front-facing Copilot demos to Procurement, Finance, and Sales teams — building demo talk tracks and function-specific use cases that turned \"how do I actually use this?\" into seller-ready workflows and proof points.",
+    metrics: ["Procurement · Finance · Sales", "Demo talk tracks", "Seller readiness"],
   },
 ];
 
@@ -394,8 +394,8 @@ export const pmmFit = [
     title: "Go-to-market strategy",
     pitch: "I position products and launch them in-market.",
     proof: [
-      "Led go-to-market across China, Korea & Garena for the $800M Call of Duty: Mobile portfolio.",
-      "Identified underperforming titles and partnered with product marketing on targeted messaging & promo campaigns that improved engagement.",
+      "Led go-to-market across China, Korea & Garena for the $800M Call of Duty: Mobile portfolio — grounding outbound positioning in product truth, customer needs, and competitive context.",
+      "Identified underperforming titles and partnered with product marketing on targeted messaging & promo campaigns, translating findings into launch content and evidence-based proof points that improved engagement.",
     ],
   },
   {
@@ -403,8 +403,8 @@ export const pmmFit = [
     title: "Customer & market insight",
     pitch: "I find the signal that tells teams what to build and say.",
     proof: [
-      "Generated customer insights from 10+ data sources that product & marketing teams acted on weekly.",
-      "Optimized global launch performance by reading monetization trends and actuals vs. forecast.",
+      "Generated customer and field insights from 10+ data sources that product & marketing teams acted on weekly — surfacing where more clarity, proof, or readiness was needed to drive adoption.",
+      "Ran evaluations across priority customer scenarios, reading monetization trends and actuals vs. forecast to optimize global launch performance.",
     ],
   },
   {
@@ -412,8 +412,8 @@ export const pmmFit = [
     title: "Cross-functional leadership",
     pitch: "I get Finance, Product, Eng & Marketing rowing together.",
     proof: [
-      "Aligned Strategy Finance, Marketing, Live Ops, Product & Engineering on high-stakes product decisions.",
-      "Coordinated 100+ stakeholders to support $500K+ deals across the field.",
+      "Partnered with PM, engineering, research, sales & marketing to validate claims, clarify how capabilities work, and align Strategy Finance, Marketing, Live Ops, Product & Engineering on high-stakes product decisions.",
+      "Coordinated 100+ stakeholders to support $500K+ deals across the field, translating insights into simple, compelling narratives across channels.",
     ],
   },
   {
