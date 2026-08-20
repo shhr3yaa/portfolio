@@ -362,19 +362,19 @@ export const codMobile = {
       name: "China",
       flag: "🇨🇳",
       story:
-        "Drove international campaigns for major gaming releases — positioning each launch with the product marketing team, partnering with engineering to build and produce the in-game product, and pulling performance data from the sales team. I packaged those insights into a clear narrative so we could launch targeted, data-backed campaigns in-market.",
+        "Drove international campaigns for major gaming releases — positioning each launch with the product marketing team, partnering with engineering to build and produce the in-game product, and analyzing peak play times and performance data from the sales team. Coordinating with a global team across time zones, I packaged those insights into a clear narrative so we could launch targeted, data-backed campaigns in-market.",
     },
     {
       name: "Korea",
       flag: "🇰🇷",
       story:
-        "Partnered with product marketing to develop targeted messaging that improved in-market performance.",
+        "Partnered with product marketing and a global cross-functional team to develop targeted messaging — analyzing peak engagement windows to time drops and promos for maximum in-market performance.",
     },
     {
       name: "Garena (Vietnam)",
       flag: "🇻🇳",
       story:
-        "Developed targeted promotional campaigns that improved engagement across the region.",
+        "Worked with a global team to develop targeted promotional campaigns — using peak-time and engagement analysis to schedule launches when players were most active, lifting engagement across the region.",
     },
   ],
 };
