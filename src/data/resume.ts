@@ -54,6 +54,7 @@ export const experience: Job[] = [
       "Designed a centralized onboarding and knowledge hub as primary PM, consolidating 1,000+ materials to improve access, adoption, and engagement across deal teams.",
       "Led cross-functional due diligence (legal, marketing, comms) across gaming acquisition targets and executed employee transition + onboarding for 50+ FTEs.",
       "Transformed static initiative tracking into a dynamic planning app using AI SCOUT, giving stakeholders self-serve insights via a Copilot agent.",
+      "Ran front-facing AI enablement sessions — presenting live Copilot demos to Procurement, Finance, and Sales teams and walking them through function-specific use cases (RFP analysis, forecasting, deal onboarding) to drive hands-on adoption across the org.",
     ],
   },
   {
@@ -305,6 +306,13 @@ export const deliverables: Deliverable[] = [
     emoji: "🎓",
     text: "Launched an Azure-hosted onboarding agent connected to SharePoint & Power BI, validated with 340+ prompts for self-serve answers.",
     metrics: ["~10 hrs/week saved", "20+ adopters", "340+ prompts"],
+  },
+  {
+    title: "Copilot Demos & AI Enablement",
+    tag: "Enablement · Cross-Functional",
+    emoji: "🎤",
+    text: "Presented live, front-facing Copilot demos to Procurement, Finance, and Sales teams — turning \"how do I actually use this?\" into concrete, function-specific workflows and use cases.",
+    metrics: ["Procurement · Finance · Sales", "Live team demos", "Real use-case walkthroughs"],
   },
 ];
 
