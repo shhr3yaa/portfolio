@@ -57,9 +57,6 @@ export function WhyPMM() {
             </li>
           ))}
         </ul>
-        <p className="mt-5 text-xs font-semibold uppercase tracking-wider text-plum/40">
-          Proof, not promises
-        </p>
       </div>
     </div>
   );
